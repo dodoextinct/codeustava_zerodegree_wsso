@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SaafPaani</string>
+    <string name="facebook_app_id">209064749670759</string>
+    <string name="fb_login_protocol_scheme">fb209064749670759</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="backgroundcolor">#ff0000</string>
+</resources>

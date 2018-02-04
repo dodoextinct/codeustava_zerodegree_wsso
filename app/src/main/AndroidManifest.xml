@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yashkrishan.saafpaani">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FacebookActivity" />
+        <activity
+            android:name=".Account"
+            android:label="Account Creation" />
+        <activity
+            android:name=".ContaminationAllert"
+            android:label="Contents" />
+        <activity
+            android:name=".Arsenic"
+            android:label="Arsenic" />
+        <activity
+            android:name=".Salinity"
+            android:label="Salinity" />
+        <activity
+            android:name=".Iron"
+            android:label="Iron" />
+        <activity
+            android:name=".Fluoride"
+            android:label="Fluoride" />
+        <activity
+            android:name=".Nitrate"
+            android:label="Nitrate" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+
+        <activity
+            android:name=".Details"
+            android:label="Details!!" />
+        <activity
+            android:name=".Details1"
+            android:label="Report Submissions!!" />
+        <activity android:name=".AccountDetails"
+            android:label="Account"></activity>
+    </application>
+
+</manifest>

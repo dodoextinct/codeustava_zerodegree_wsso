@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1051162662474",
+    "firebase_url": "https://saafpaani-8c2b2.firebaseio.com",
+    "project_id": "saafpaani-8c2b2",
+    "storage_bucket": "saafpaani-8c2b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051162662474:android:ca13125eb9a3e364",
+        "android_client_info": {
+          "package_name": "com.example.yashkrishan.saafpaani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051162662474-lqklkrbqk08k0be709tp4ma02m55th14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yashkrishan.saafpaani",
+            "certificate_hash": "35c7911d427254a174b04161d5e2825172734105"
+          }
+        },
+        {
+          "client_id": "1051162662474-ij6iqknb43k70uvhpgm847mevv2404r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuwiMGooS20lmLxLqscvRbcceleuL9n4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051162662474-ij6iqknb43k70uvhpgm847mevv2404r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

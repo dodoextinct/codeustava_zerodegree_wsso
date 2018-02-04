@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/webview1"
+    android:orientation="vertical"
+    tools:context="com.example.yashkrishan.saafpaani.ContaminationAllert">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:text="Arsenic"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:id="@+id/t1"
+    android:background="@drawable/ars"
+    android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:background="@drawable/f"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Fluoride"
+        android:id="@+id/t2"/>
+    <Button
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/fe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Iron"
+        android:id="@+id/t3"/>
+    <Button
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/na"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Salinity"
+        android:id="@+id/t4"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:background="@drawable/ag"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="NItrate"
+        android:id="@+id/t5"/>
+</LinearLayout>

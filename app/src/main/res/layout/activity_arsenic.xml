@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yashkrishan.saafpaani.Arsenic">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="GetDetails"
+        android:id="@+id/update"
+        android:textColor="#ffffff"
+        android:background="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="Balod          0"
+        android:textSize="20sp"
+        android:padding="1dp"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:text="Balod Bazar    0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:text="Balrampur      0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t4"
+        android:text="Bastar         0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t5"
+        android:text="Bemetra        0"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t6"
+        android:text="Gariyaband     3"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t7"
+        android:text="Raipur        0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t8"
+        android:text="Rajnandgaon        27"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t9"
+        android:text="Bijapur        0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t10"
+        android:text="Bilaspur       0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t11"
+        android:text="Dantewada      0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t12"
+        android:text="Dhamtari        0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t13"
+        android:text="Durg          0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t14"
+        android:text="Jahangir-Champa       0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t15"
+        android:text="Jashpur        0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t16"
+        android:text="Kanker         0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t17"
+        android:text="Kawardha         0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t18"
+        android:text="Kondagaon      0"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t19"
+        android:text="Korba          0"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/t20"
+        android:text="Koriya         0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t21"
+        android:text="Mahasamund     0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t22"
+        android:text="Mungeli        0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t23"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t24"
+        android:text="Narayanpur     0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t25"
+        android:text="Sukma          0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t26"
+        android:text="Surajpur       0"/>
+    <TextView
+        android:textSize="20sp"
+        android:padding="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t27"
+        android:text="Surguja        0"/>
+
+</LinearLayout>
